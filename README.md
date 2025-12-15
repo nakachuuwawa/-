@@ -1,7 +1,7 @@
 # 경계없이, 다정하게 🌈 (Without Borders, With Kindness)
 > 본 프로젝트는 2025-2 카카오임팩트 × 테크포임팩트 캠퍼스 프로그램의 지원으로, 발달장애청년허브 사부작과 함께 발달장애청년의 사회적 고립 문제를 마을 관점에서 다루는 체험형 인터랙티브 웹게임을 개발하였습니다.
 <p align="center">
-  <img src="thumbnail_readme.png" width="1000">
+  <img src="thumbnail_readme.png" width="900">
 </p>
 
 
