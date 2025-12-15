@@ -94,27 +94,9 @@ AI/Model	예: OpenAI API, HuggingFace
 Infra/DevOps	예: Vercel, Docker, GitHub Actions
 
 ## 5. 설치 및 실행 방법
-아래 절차를 따르면 누구나 실행 가능해야 해야함.
-
-저장소 클론
-git clone
-cd
-
-Backend 실행
-cd backend
-pip install -r requirements.txt
-python app.py
-
-Frontend 실행
-cd frontend
-npm install
-npm run dev
-
-환경변수 설정 (.env.example 제공)
-API_KEY=YOUR_KEY_HERE
-DB_URL=YOUR_DB_URL_HERE
-
-※ 실제 비밀번호 / Key 는 절대 커밋하지 말 것
+1. 깃허브에서 전체 파일 다운로드
+2. visual studio code 다운로드 후 Live Server, p5.vs code 확장프로그램 다운로드
+3. index.html 우클릭 후 openinliveserver에서 열기 및 실행
 
 ## 6. 팀 소개
 
@@ -230,7 +212,7 @@ main/
 └─ libraries/            # 외부 라이브러리
    ├─ p5.min.js          # p5.js 메인 라이브러리
    └─ p5.sound.min.js    # p5.js 사운드 확장
-
+```
 
 ## 10. 저작권 및 라이선스
 - 본 프로젝트에 사용된 **사부작 및 성미산 마을 관련 서사·이미지**는  
