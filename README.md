@@ -211,26 +211,26 @@ DB_URL=YOUR_DB_URL_HERE
 ## 9. 프로젝트 구조
 
 ```text
-SABUJAK-GAME/
-├─ src/
-│  ├─ index.html          # 메인 HTML
-│  ├─ styles.css          # 공통 스타일
-│  ├─ main.js             # 엔트리 스크립트
-│  ├─ scenes/             # 프롤로그/마을광장/옹호가게 등 장면별 스크립트
-│  └─ components/         # 공통 UI 컴포넌트
-├─ assets/
-│  ├─ images/             # 배경, 캐릭터, 아이콘
-│  └─ audio/              # 효과음, 배경음 (필요 시)
-├─ docs/
-│  ├─ 우사부_창의연구실습_최종발표.pdf  # 발표 자료
-│  └─ 기타 문서
-├─ README.md              # 프로젝트 설명 문서
-└─ LICENSE                # 라이선스 (선택)
+main/
+├─ index.html            # 메인 HTML, p5 스케치 및 스크립트 로드
+├─ style.css             # 전체 공통 스타일
+├─ main.js               # 게임 전반의 흐름 제어, 씬 전환 로직
+├─ start.js              # 타이틀 / 시작 화면
+├─ intro.js              # 프롤로그(집 안 탐색) 씬
+├─ sketch_map.js         # 마을 지도·광장 씬
+├─ sketch_hula.js        # 훌라 미니게임 스케치
+├─ minigameB.js          # 공공시민노동(종이팩 교환) 미니게임
+├─ dialogue_minigame.js  # NPC 대사 및 미니게임 관련 대화 로직
+├─ ongho.js              # 옹호가게 씬
+├─ ending.js             # 엔딩 씬
+├─ ending_return.js      # 엔딩 이후 귀가/마무리 흐름 관련 스크립트
+├─ tutorial.js           # 조작법 안내 등 튜토리얼 스크립트
+├─ assets/               # 이미지·오디오 등 게임 리소스
+│  └─ ...                
+└─ libraries/            # 외부 라이브러리
+   ├─ p5.min.js          # p5.js 메인 라이브러리
+   └─ p5.sound.min.js    # p5.js 사운드 확장
 
-프로젝트 구조 예시: frontend/ - 프론트엔드 코드
-backend/ - 백엔드 코드
-assets/ - 이미지/자료
-README.md - 이 문서
 
 ## 10. 저작권 및 라이선스
 - 본 프로젝트에 사용된 **사부작 및 성미산 마을 관련 서사·이미지**는  
