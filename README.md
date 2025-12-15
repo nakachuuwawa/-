@@ -46,16 +46,13 @@
 
 ### 🌳 마을광장 & 미니게임 – 관계와 역할 체험
 <p align="center">
-  <img src="hoola_readme.png" width="400">
+  <img src="hoola_readme.png" width="380">
+  <img src="clean_readme.png" width="380">
 </p>
 
 - **훌라 미니게임**  
   - 사부작 훌라 동아리 **선샤인아놀드훌라**를 모티브로 한 구성
   - 언어 중심 소통이 아닌, **함께 춤추는 경험**을 통해 발달장애청년의 **자기표현과 관계 형성 방식**을 보여주는 장면
-
-<p align="center">
-  <img src="clean_readme.png" width="400">
-</p>
 
 - **마을 공공시민노동 미니게임**  
   - 종이팩을 모아 교환하는 실제 **공공시민노동 활동**을 모티브로 한 구성  
